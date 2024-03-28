@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      width: {
+        '673px': '673px', // Definir una clase de ancho personalizada para 673 píxeles
+      },
+      height: {
+        '740px': '740px', // Definir una clase de altura personalizada para 740 píxeles
+      },
     },
   },
   plugins: [],
